@@ -44,6 +44,13 @@
         }
     </style>
     <link href="file:///Users/cyrusperez/Desktop/assignment-2-repo-1/resources/layout.css" rel="stylesheet" type="text/css">
+    <script>
+        function myFunction() {
+            document.getElementById("home").innerHTML;
+            document.getElementById("second").innerHTML;
+            document.getElementById("third").innerHTML;
+        }
+    </script>
 </head>
 <body>
     <div class="banner">
@@ -62,24 +69,28 @@
     <div class="content">
         <nav class="menu">
             <ul>
-                <a href=index.html> Homepage </a>
-                <a href="views/two.html"> Page 2</a>
-                <a href="views/three.html"> Page 3 </a>
+                <button type="button" oneclick="myFunction()"> <a id="home" href=index.html> Homepage </a> </button>
+                <button type="button" oneclick="myFunction()"> <a id="second" href="views/two.html"> Page 2 </a> </button>
+                <button type="button" oneclick="myFunction()"> <a id="third" href="views/three.html"> Page 3 </a> </button>
             </ul>
         </nav>
         <h1>Assignment 2</h1>
     </div>
         <h2 class="css-question"> How to Apply CSS to HTML</h2>
-        <p class="css-question"> CSS stands for "Cascading Style Sheets" and it is added to HTML files to help style the webpage. To include CSS elements in an HTML file, you would first create a CSS file. The file would include a reference to a class name with brackets that will then enclose the attributes one wishes to add. The following is an example of CSS code that was used for this paragraph. </p>
+        <p class="css-question"> CSS stands for “Cascading Style Sheets” and it is used to specify the style and presentation of HTML elements. CSS is written out on a separate file and connected to an HTML file using the < link > tag in the < head > section of the HTML file. The < link > tag provides the path to the CSS file and it also includes “rel” and “type”. The relationship between the CSS file and the HTML file is put in the “rel” area and “type” describes the format of the CSS file. The example below shows the < link > tag used for this specific HTML page and the CSS code in the seperate file used to alter the margin, padding, and line-height of the paragraph.  </p>
+        <br>
+        <code class="css-question">
+            < link href="file:///Users/cyrusperez/Desktop/assignment-2-repo-1/resources/layout.css" rel="stylesheet" type="text/css">
+        </code>
         <br>
         <code class="css-question">
             .css-question {
-                margin: 0;
+                margin: 5px;
                 padding: 5px;
                 line-height: 2;
               }
         </code>
-        <p class="css-question"> In this code, "margin" has created a space between the paragraph and the screen. The "padding" element increases or decreases the space in between the paragraph and the heading. As for the "line-height", this feature adjusts the space between lines in a paragraph. The CSS information was added to the HTML file referencing this webpage using a link tag. The link tag includes the path to the CSS file along with the "rel" and "type". </p>
+        <p class="css-question"> In this code, "margin" has created a space outside of the paragraph element and other elements. The "padding" element has created a space in between the border of the paragraphs contents its border. As for the "line-height", this feature adjusts the space between lines in the paragraph. </p>
         <h2 class="js-question"> How to Link External JavaScript File</h2>
 </body>
 </html>
