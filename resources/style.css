@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .css-question {
+    margin: 5px;
+    padding: 5px;
+    line-height: 2;
+  }
+
+  .js-question {
+    margin: 5px;
+    padding: 5px;
+    line-height: 2;
+  }
