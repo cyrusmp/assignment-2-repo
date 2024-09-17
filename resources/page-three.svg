@@ -11,7 +11,7 @@
               path="M 20 10 l 0 60 l 159 0 l 0 -60 z" />
           </circle>
       
-        <circle r="5" fill="green">
+        <circle r="3" fill="green">
           <animateMotion
             dur="15s"
             repeatCount="indefinite"
