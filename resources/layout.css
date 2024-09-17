@@ -1,11 +1,26 @@
-table, th, td {
+table {
     border: 1px solid;
     width: 100%;
     border-collapse: collapse;
+    background-color: white;
+  }
+
+  .col1 {
+    width: 30%
+  }
+
+  .col2 {
+    width: 70%
   }
 
   .css-question {
-    margin: 0;
-    padding: 20px;
+    margin: 5px;
+    padding: 5px;
+    line-height: 2;
+  }
+
+  .js-question {
+    margin: 5px;
+    padding: 5px;
     line-height: 2;
   }
