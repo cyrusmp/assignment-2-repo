@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+        <path
+          fill="none"
+          stroke="lightgrey"
+          d="M 20 10 l 0 60 l 159 0 l 0 -60 z" />
+
+          <circle r="2" fill="tan">
+            <animateMotion
+              dur="14s"
+              repeatCount="indefinite"
+              path="M 20 10 l 0 60 l 159 0 l 0 -60 z" />
+          </circle>
+      
+        <circle r="5" fill="green">
+          <animateMotion
+            dur="15s"
+            repeatCount="indefinite"
+            path="M 20 10 l 0 60 l 159 0 l 0 -60 z" />
+        </circle>
+      </svg>
