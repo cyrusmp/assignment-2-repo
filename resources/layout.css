@@ -3,3 +3,9 @@ table, th, td {
     width: 100%;
     border-collapse: collapse;
   }
+
+  .css-question {
+    margin: 0;
+    padding: 20px;
+    line-height: 2;
+  }
