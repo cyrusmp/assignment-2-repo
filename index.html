@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2</title>
+    <title>Assignment 2</title> 
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
         }
+
         .banner {
             background-color: #4CAF50;
             color: white;
@@ -17,6 +18,12 @@
             font-size: 24px;
             height: 300px;
         }
+
+        .banner svg {
+            height:300px;
+            width:500px;
+        }
+    
         .content {
             padding: 20px;
             text-align: center;
@@ -25,7 +32,16 @@
 </head>
 <body>
     <div class="banner">
-        Welcome to My Website
+        <svg>
+            <circle cx="150" cy="50" r="40" stroke="white" stroke-width="4" fill="yellow"/>
+            <circle cx="360" cy="50" r="40" stroke="white" stroke-width="4" fill="yellow"/>
+            <circle cx="150" cy="50" r="20" stroke="white" stroke-width="4" fill="red"/>
+            <circle cx="360" cy="50" r="20" stroke="white" stroke-width="4" fill="red"/>
+            <rect x="155" y="175" width="200" height="50" stroke="black" stroke-width="3" fill="pink" />
+            <polygon points="325,190 354,225 290,225" fill="black"/>
+            <polygon points="255,190 220,225 290,225" fill="black"/>
+            <polygon points="180,190 156,225 220,225" fill="black"/>
+        </svg>
     </div>
 
     <div class="content">
