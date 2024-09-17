@@ -1,17 +1,28 @@
-table, th, td {
-    border: 1px solid;
-    width: 100%;
-    border-collapse: collapse;
+.css-question {
+  margin: 5px;
+  padding: 5px;
+  line-height: 2;
+}
+
+.js-question {
+  margin: 5px;
+  padding: 20px;
+  line-height: 2;
+}
+
+table {
+  border: 1px solid;
+  width: 95%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: 30px;
   }
 
-  .css-question {
-    margin: 5px;
-    padding: 5px;
-    line-height: 2;
-  }
+td, th {
+  border: 1px solid rgb(190,190,190);
+  padding: 10px 20px;
+}
 
-  .js-question {
-    margin: 5px;
-    padding: 5px;
-    line-height: 2;
-  }
+th {
+  width: 30%
+}
