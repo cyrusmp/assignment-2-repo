@@ -8,6 +8,7 @@
         body {
             margin: 0;
             font-family: Arial, sans-serif;
+            background-color: antiquewhite;
         }
 
         .banner {
@@ -31,8 +32,10 @@
 
         .menu {
             text-align: center;
+            box-sizing: content-box; 
             border: 2px solid;
-            border-radius: 7px;        
+            border-color: #4CAF50;
+            border-radius: 7px;    
         }
 
         .js-question {
@@ -68,13 +71,15 @@
     </div>
         <h2 class="css-question"> How to Apply CSS to HTML</h2>
         <p class="css-question"> CSS stands for "Cascading Style Sheets" and it is added to HTML files to help style the webpage. To include CSS elements in an HTML file, you would first create a CSS file. The file would include a reference to a class name with brackets that will then enclose the attributes one wishes to add. The following is an example of CSS code that was used for this paragraph. </p>
+        <br>
         <code class="css-question">
             .css-question {
                 margin: 0;
-                padding: 20px;
+                padding: 5px;
                 line-height: 2;
               }
         </code>
+        <p class="css-question"> In this code, "margin" has created a space between the paragraph and the screen. The "padding" element increases or decreases the space in between the paragraph and the heading. As for the "line-height", this feature adjusts the space between lines in a paragraph. The CSS information was added to the HTML file referencing this webpage using a link tag. The link tag includes the path to the CSS file along with the "rel" and "type". </p>
         <h2 class="js-question"> How to Link External JavaScript File</h2>
 </body>
 </html>
