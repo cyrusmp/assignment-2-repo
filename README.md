@@ -15,3 +15,6 @@ JS Resources
 https://www.w3schools.com/js/js_whereto.asp
 
 https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+SVG Resources
+https://developer.mozilla.org/en-US/docs/Web/SVG/Element/animateMotion
