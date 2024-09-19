@@ -26,3 +26,16 @@ td, th {
 th {
   width: 30%
 }
+
+#home:hover {
+  background-color: blueviolet;
+  color: white;
+}
+#second:hover {
+  background-color: blueviolet;
+  color: white;
+}
+#third:hover {
+  background-color: blueviolet;
+  color: white;
+}
