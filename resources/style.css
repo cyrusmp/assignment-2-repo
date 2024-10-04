@@ -27,17 +27,7 @@ th {
   width: 30%;
 }
 
-home:hover [
+button:hover [
   background-color: blueviolet;
   color: white;
-]
-
-second:hover [
-  background-color: blueviolet;
-  color: white;
-]
-
-third:hover [
-  background-color: blueviolet;
-  color: white;
-]
+}
