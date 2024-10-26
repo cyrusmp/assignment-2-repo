@@ -27,7 +27,7 @@ th {
   width: 30%;
 }
 
-button:hover [
+a:hover {
   background-color: blueviolet;
   color: white;
 }
